@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"  >
+
+    <include layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.github.paolorotolo.expandableheightlistview.ExpandableHeightGridView
+                android:id="@+id/grd_users"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4"
+                android:background="#fff"
+                android:stretchMode="columnWidth"
+                android:scrollbars="none"/>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    android:id="@+id/txv_member_count"
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/group_member_count"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                style="@style/MypageContainerStyle"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/group_profile"
+                    android:layout_centerVertical="true"/>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:id="@+id/imv_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_group"/>
+
+                    <ImageView
+                        android:id="@+id/imv_edit_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/button_edit_profile_pic"
+                        android:layout_gravity="right|bottom"/>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/group_name"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/txv_groupname"
+                    style="@style/MypageValueStyle"
+                    android:text="Group"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_group_delegate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    style="@style/MypageSeperatorStyle" />
+
+                <LinearLayout
+                    style="@style/MypageContainerStyle">
+
+                    <TextView
+                        style="@style/MypageLabelStyle"
+                        android:text="@string/delegate"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_group_noti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    style="@style/MypageSeperatorStyle" />
+
+                <LinearLayout
+                    style="@style/MypageContainerStyle">
+
+                    <TextView
+                        style="@style/MypageLabelStyle"
+                        android:text="@string/group_noti"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                style="@style/MypageContainerStyle"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="@string/group_sound_onoff"/>
+
+                <ImageView
+                    android:id="@+id/imv_group_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/switch_selector"/>
+
+            </RelativeLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <RelativeLayout
+                style="@style/MypageContainerStyle"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="@string/group_top_onoff"/>
+
+                <ImageView
+                    android:id="@+id/imv_group_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/switch_selector"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txv_groupout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/group_out"
+                android:background="#de4949"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

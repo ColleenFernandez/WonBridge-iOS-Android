@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imv_friendPhoto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:scaleType="centerCrop"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#00000000"/>
+
+    <TextView
+        android:id="@+id/txv_friendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/imv_friendPhoto"
+        android:textColor="#333"
+        android:visibility="gone"/>
+
+    <!--  other's message -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imv_friendPhoto"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txv_message1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:background="@drawable/bg_balloon_g"
+                android:textColor="#333"/>
+
+            <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                android:id="@+id/imv_imgmsg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:siShape="@drawable/bg_balloon_g"
+                android:scaleType="centerCrop"/>
+
+            <FrameLayout
+                android:id="@+id/flt_video1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                    android:id="@+id/imv_video1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nomov"
+                    app:siShape="@drawable/bg_balloon_g"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/imv_videoMark1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/video_play"
+                    android:scaleType="center"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/imv_videoprogress1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/loading_animation"/>
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txv_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_time_chat"
+            android:drawablePadding="5dp"
+            android:textColor="#888c8f"
+            android:layout_marginLeft="8dp"
+            android:textSize="10sp"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imv_myPhoto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:scaleType="centerCrop"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#00000000"/>
+
+
+    <!--  my message -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imv_myPhoto"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="9dp">
+
+        <TextView
+            android:id="@+id/txv_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_time_chat"
+            android:drawablePadding="5dp"
+            android:textSize="10sp"
+            android:textColor="#888c8f"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="bottom"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txv_message2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_balloon_b"
+                android:textColor="#fff"/>
+
+            <FrameLayout
+                android:id="@+id/flt_imgmsg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                    android:id="@+id/imv_imgmsg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:siShape="@drawable/bg_balloon_b"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/imv_imgprogress2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/loading_animation"/>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/flt_video2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                    android:id="@+id/imv_video2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nomov"
+                    app:siShape="@drawable/bg_balloon_b"
+                    android:scaleType="centerCrop"/>
+
+                <ImageView
+                    android:id="@+id/imv_videoMark2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/video_play"
+                    android:layout_gravity="center"
+                    android:scaleType="center"/>
+
+                <ImageView
+                    android:id="@+id/imv_videoprogress2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/loading_animation"/>
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <!--  status (ex. leave message) -->
+    <TextView
+        android:id="@+id/txv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textColor="@color/black_grey"
+        android:background="@color/light_gray" />
+
+</RelativeLayout>

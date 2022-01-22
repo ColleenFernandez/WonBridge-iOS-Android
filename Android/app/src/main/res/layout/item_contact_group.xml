@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <FrameLayout
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/imv_photo"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/img_group"/>
+
+        <LinearLayout
+            android:id="@+id/lyt_photo"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="42dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imv_photo1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:id="@+id/imv_photo2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="42dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp">
+
+                <ImageView
+                    android:id="@+id/imv_photo3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:id="@+id/imv_photo4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="#464646"
+                android:textSize="16sp"/>
+
+            <ImageView
+                android:id="@+id/imv_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="2dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2016.09.30"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginTop="2dp"
+            android:textColor="#919191"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txv_add"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:padding="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:background="@drawable/addinvite_selector"/>
+
+
+
+</LinearLayout>

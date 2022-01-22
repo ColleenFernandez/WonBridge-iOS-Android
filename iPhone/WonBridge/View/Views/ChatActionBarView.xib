@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChatActionBarView" customModule="WonBridge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zB-ma-iQN" userLabel="Button-method-chat" customClass="ChatButton" customModule="WonBridge" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="45" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="Gcj-zD-jRo"/>
+                        <constraint firstAttribute="height" constant="50" id="dDO-Ni-H6z"/>
+                    </constraints>
+                    <state key="normal" image="button_method_chat"/>
+                    <state key="highlighted" image="button_method_chat"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YDd-t9-9S2" userLabel="Text Chat Back View">
+                    <rect key="frame" x="45" y="7" width="265" height="36"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQt-LW-wuw" userLabel="Button-emotion" customClass="ChatButton" customModule="WonBridge" customModuleProvider="target">
+                            <rect key="frame" x="190" y="0.0" width="30" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="gsf-QV-VAX"/>
+                                <constraint firstAttribute="height" constant="35" id="nPE-zM-j1B"/>
+                            </constraints>
+                            <state key="normal" image="button_imoji_chat"/>
+                            <state key="highlighted" image="button_imoji_chat"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osw-Mt-kUn" userLabel="Button-text-send" customClass="ChatButton" customModule="WonBridge" customModuleProvider="target">
+                            <rect key="frame" x="225" y="0.0" width="35" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="Ecb-Aw-3QC"/>
+                                <constraint firstAttribute="width" constant="35" id="beG-1u-ROX"/>
+                            </constraints>
+                            <state key="normal" image="button_send_chat"/>
+                            <state key="highlighted" image="button_send_chat"/>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UFx-BD-K9i" customClass="HPTextViewInternal">
+                            <rect key="frame" x="0.0" y="0.0" width="190" height="36"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="UFx-BD-K9i" firstAttribute="top" secondItem="YDd-t9-9S2" secondAttribute="top" id="14B-i1-p7F"/>
+                        <constraint firstAttribute="bottom" secondItem="UFx-BD-K9i" secondAttribute="bottom" id="81k-zc-KuQ"/>
+                        <constraint firstAttribute="trailing" secondItem="osw-Mt-kUn" secondAttribute="trailing" constant="5" id="IbB-Og-tJO"/>
+                        <constraint firstAttribute="bottom" secondItem="nQt-LW-wuw" secondAttribute="bottom" constant="1" id="NcH-xz-PeL"/>
+                        <constraint firstItem="osw-Mt-kUn" firstAttribute="leading" secondItem="nQt-LW-wuw" secondAttribute="trailing" constant="5" id="Ne9-p1-PE9"/>
+                        <constraint firstAttribute="bottom" secondItem="osw-Mt-kUn" secondAttribute="bottom" constant="1" id="cz1-b7-j3k"/>
+                        <constraint firstItem="UFx-BD-K9i" firstAttribute="leading" secondItem="YDd-t9-9S2" secondAttribute="leading" id="pZo-X9-vfL"/>
+                        <constraint firstItem="nQt-LW-wuw" firstAttribute="leading" secondItem="UFx-BD-K9i" secondAttribute="trailing" id="qXK-sv-HqA"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCh-t2-MsH" userLabel="Button-image-send">
+                    <rect key="frame" x="230" y="8" width="80" height="35"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="E8v-fV-TJs"/>
+                        <constraint firstAttribute="width" constant="80" id="IXc-xh-tqT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="发送">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.81568627449999997" green="0.84313725490000002" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="YDd-t9-9S2" firstAttribute="leading" secondItem="0zB-ma-iQN" secondAttribute="trailing" id="ERC-G1-BYI"/>
+                <constraint firstAttribute="bottom" secondItem="UCh-t2-MsH" secondAttribute="bottom" constant="7" id="R4o-K9-YkS"/>
+                <constraint firstAttribute="bottom" secondItem="0zB-ma-iQN" secondAttribute="bottom" id="gko-NW-ncc"/>
+                <constraint firstAttribute="trailing" secondItem="UCh-t2-MsH" secondAttribute="trailing" constant="10" id="k6I-1x-BFb"/>
+                <constraint firstAttribute="trailing" secondItem="YDd-t9-9S2" secondAttribute="trailing" constant="10" id="kHa-5w-e6i"/>
+                <constraint firstItem="YDd-t9-9S2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="7" id="m1G-hH-sHO"/>
+                <constraint firstAttribute="bottom" secondItem="YDd-t9-9S2" secondAttribute="bottom" constant="7" id="qf8-Dz-kHp"/>
+                <constraint firstItem="0zB-ma-iQN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wsA-hh-XqD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="emotionButton" destination="nQt-LW-wuw" id="rUm-PH-zxX"/>
+                <outlet property="imageSendButton" destination="UCh-t2-MsH" id="wOs-Uu-m6r"/>
+                <outlet property="inputTextView" destination="UFx-BD-K9i" id="hDI-3V-5Tt"/>
+                <outlet property="shareButton" destination="0zB-ma-iQN" id="tX2-V6-htg"/>
+                <outlet property="textChatBackView" destination="YDd-t9-9S2" id="53C-ae-yWR"/>
+                <outlet property="textSendButton" destination="osw-Mt-kUn" id="g4w-NZ-uYh"/>
+            </connections>
+            <point key="canvasLocation" x="535" y="572.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_imoji_chat" width="23" height="23"/>
+        <image name="button_method_chat" width="17" height="17"/>
+        <image name="button_send_chat" width="21" height="20"/>
+    </resources>
+</document>

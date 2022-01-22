@@ -1,0 +1,47 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+# Comment this line if you're not using Swift and don't want to use dynamic frameworks
+use_frameworks!
+#ignore all warnings from all pods
+inhibit_all_warnings!
+
+def pods
+
+    #Swift
+    pod 'Alamofire', '~> 3.4'
+    pod 'SwiftyJSON’, '~> 2.3'
+    pod ’JLToast’, '~> 1.0’
+    pod 'CCBottomRefreshControl'
+    #pod 'libjingle_peerconnection'
+    #pod 'SocketRocket'
+    pod 'Material', '~>1.0'
+    pod 'Kingfisher’, '~>2.x’
+    pod 'SnapKit’, '~>0.22.0’
+    pod 'GoogleMaps'
+    pod 'RxSwift', '~> 2.3.1'
+    pod 'RxCocoa', '~> 2.3.1'
+    pod 'RxBlocking', '~> 2.3.1'
+    pod 'Dollar'
+    pod 'Cent'
+    pod "Synchronized", "~> 2.0"
+    #pod 'BRYXBanner'
+    #pod 'UIImageViewModeScaleAspect'
+    #pod 'Firebase/Core'
+    pod 'KMPlaceholderTextView', '~> 1.2.2’
+
+    #Objective-C
+    pod 'YYText'
+    pod 'SVProgressHUD'
+    pod 'SDWebImage'
+    pod 'DACircularProgress'
+    pod 'pop'
+    #pod 'AppRTC'
+
+end
+
+target 'WonBridge' do
+	pods	
+end

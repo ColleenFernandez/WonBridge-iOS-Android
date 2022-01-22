@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/MypageContainerStyle">
+
+            <TextView
+                style="@style/MypageLabelStyle"
+                android:text="@string/qa"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/MypageSeperatorStyle"
+            android:layout_height="0.4dp"/>
+
+        <LinearLayout
+            android:id="@+id/lyt_qa_phone"
+            style="@style/MypageContainerStyle">
+
+            <TextView
+                style="@style/MypageLabelStyle"
+                android:layout_marginLeft="16dp"
+                android:text="@string/qa_phone"/>
+
+            <ImageView
+                style="@style/MypageValueStyle"
+                android:src="@drawable/left_arrow"
+                android:scaleType="fitEnd"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt_qa_email"
+            style="@style/MypageContainerStyle">
+
+            <TextView
+                style="@style/MypageLabelStyle"
+                android:layout_marginLeft="16dp"
+                android:text="@string/qa_email"/>
+
+            <ImageView
+                style="@style/MypageValueStyle"
+                android:src="@drawable/left_arrow"
+                android:scaleType="fitEnd"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt_qa_online"
+            style="@style/MypageContainerStyle">
+
+            <TextView
+                style="@style/MypageLabelStyle"
+                android:layout_marginLeft="16dp"
+                android:text="@string/qa_online"/>
+
+            <ImageView
+                style="@style/MypageValueStyle"
+                android:src="@drawable/left_arrow"
+                android:scaleType="fitEnd"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt_help"
+            android:layout_marginTop="6dp"
+            style="@style/MypageContainerStyle">
+
+            <TextView
+                style="@style/MypageLabelStyle"
+                android:text="@string/help"/>
+
+            <ImageView
+                style="@style/MypageValueStyle"
+                android:src="@drawable/left_arrow"
+                android:scaleType="fitEnd"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    android:background="@color/footer">
+
+    <LinearLayout
+        android:id="@+id/lyt_timeline"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imv_timeline"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/button_nearby_off"/>
+
+        <TextView
+            android:id="@+id/txv_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:textColor="#818382"
+            android:text="@string/tab_timeline"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lyt_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imv_msg"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:src="@drawable/button_massage_off"/>
+
+            <TextView
+                android:id="@+id/txv_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:drawablePadding="4dp"
+                android:text="@string/message"
+                android:textColor="#818382"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txv_unread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:background="@drawable/red_roundrect"
+            android:textColor="#ffffff"
+            android:textSize="10sp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_service"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imv_service"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/button_service_off"/>
+
+        <TextView
+            android:id="@+id/txv_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:text="@string/service"
+            android:textColor="#818382"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_mypage"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imv_mypage"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/button_user_off"/>
+
+        <TextView
+            android:id="@+id/txv_mypage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:text="@string/mypage"
+            android:textColor="#818382"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_contact"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imv_contact"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/button_contacts_off"/>
+
+        <TextView
+            android:id="@+id/txv_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:text="@string/address"
+            android:textColor="#818382"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

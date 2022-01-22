@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChatShareMediaView" customModule="WonBridge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tZq-cZ-QrR">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="2HL-5v-bMi">
+                        <size key="itemSize" width="73" height="73"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="0.81568627449999997" green="0.84313725490000002" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="tZq-cZ-QrR" secondAttribute="trailing" id="6Qd-Sw-Ufh"/>
+                <constraint firstItem="tZq-cZ-QrR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8T8-dP-BDG"/>
+                <constraint firstItem="tZq-cZ-QrR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ddl-pf-6LD"/>
+                <constraint firstAttribute="bottom" secondItem="tZq-cZ-QrR" secondAttribute="bottom" id="S3T-0R-BaY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="listCollectionView" destination="tZq-cZ-QrR" id="kHh-oN-iVE"/>
+            </connections>
+        </view>
+    </objects>
+</document>

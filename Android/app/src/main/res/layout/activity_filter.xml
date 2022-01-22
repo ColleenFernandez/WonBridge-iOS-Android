@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lyt_container">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/distance_from_me"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/txv_distance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue_color"
+                    android:gravity="right"
+                    android:text="10km"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <com.appyvet.rangebar.RangeBar
+                android:id="@+id/distance_rangebar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                custom:tickEnd="999"
+                custom:tickStart="1"
+                custom:rangeBar="false"
+                custom:pinRadius="0dp"
+                custom:selectorColor="@color/grey"
+                custom:selectorSize="12dp"
+                custom:tickColor="@color/transparent"
+                custom:rangeBarColor="@color/grey"
+                custom:connectingLineColor="#3366ad"
+                custom:barWeight="2dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/age"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/txv_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue_color"
+                    android:gravity="right"
+                    android:text="10岁~40岁"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <com.appyvet.rangebar.RangeBar
+                android:id="@+id/age_rangebar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                custom:tickStart="1"
+                custom:tickInterval="1"
+                custom:tickEnd="100"
+                custom:pinRadius="0dp"
+                custom:selectorColor="@color/grey"
+                custom:selectorSize="12dp"
+                custom:connectingLineColor="#3366ad"
+                custom:tickColor="@color/transparent"
+                custom:rangeBarColor="@color/grey"
+                custom:barWeight="2dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/sex"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <TextView
+                    android:id="@+id/txv_sex_all"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/all"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/filter_selector"
+                    android:textColor="@drawable/color_selector"/>
+
+                <TextView
+                    android:id="@+id/txv_sex_man"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_man_set"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="4dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/man2"
+                    android:textSize="18sp"
+                    android:background="@drawable/filter_selector"
+                    android:textColor="@drawable/color_selector"/>
+
+                <TextView
+                    android:id="@+id/txv_sex_woman"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_woman_set"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="4dp"
+                    android:paddingLeft="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/woman2"
+                    android:textSize="18sp"
+                    android:background="@drawable/filter_selector"
+                    android:textColor="@drawable/color_selector"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/recent_connect"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/txv_recent_online"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/online"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/filter_selector"
+                    android:textColor="@drawable/color_selector"/>
+
+                <TextView
+                    android:id="@+id/txv_oneday_ago"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:text="@string/oneday_ago"
+                    android:textSize="18sp"
+                    android:background="@drawable/filter_selector"
+                    android:textColor="@drawable/color_selector"/>
+
+                <TextView
+                    android:id="@+id/txv_threedays_ago"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/threedays_ago"
+                    android:textSize="18sp"
+                    android:background="@drawable/filter_selector"
+                    android:textColor="@drawable/color_selector"/>
+
+                <TextView
+                    android:id="@+id/txv_sevendays_ago"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/sevendays_ago"
+                    android:textSize="18sp"
+                    android:background="@drawable/filter_selector"
+                    android:textColor="@drawable/color_selector"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/relationship"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/txv_relation_all"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/all"
+                    android:padding="6dp"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:background="@drawable/filter_all_selector"
+                    android:textColor="@drawable/color_selector"/>
+
+                <TextView
+                    android:id="@+id/txv_relation_friend"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/friend"
+                    android:padding="6dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/filter_friend_selector"
+                    android:textColor="@drawable/color_selector"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="36dp">
+
+                <TextView
+                    android:id="@+id/txv_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="48dp"
+                    android:text="@string/cancel"
+                    android:layout_toLeftOf="@+id/txv_ok"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@id/txv_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ok"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="18dp"
+                    android:textSize="18sp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

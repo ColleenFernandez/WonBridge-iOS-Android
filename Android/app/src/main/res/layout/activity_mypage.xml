@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mypage.MyPageActivity"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_height"
+        android:textColor="@color/white"
+        android:text="@string/mypage_title"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background = "@color/colorPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:background="#f2f2f2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#f2f2f2">
+
+            <RelativeLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_profile"
+                    android:layout_centerVertical="true"/>
+
+                <FrameLayout
+                    android:id="@+id/flt_edit_profile"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:id="@+id/imv_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_user"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/button_edit_profile_pic"
+                        android:layout_gravity="right|bottom"/>
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_email"/>
+
+                <TextView
+                    android:id="@+id/txv_email"
+                    style="@style/MypageValueStyle"
+                    android:text="sayconsta@gmail.com"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_nickname"/>
+
+                <TextView
+                    android:id="@+id/txv_nickname"
+                    style="@style/MypageValueStyle"
+                    android:text="SayConsta"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_sex"/>
+
+                <TextView
+                    android:id="@+id/txv_sex"
+                    style="@style/MypageValueStyle"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/school"/>
+
+                <TextView
+                    android:id="@+id/txv_school"
+                    style="@style/MypageValueStyle"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/home_village"/>
+
+                <TextView
+                    android:id="@+id/txv_village"
+                    style="@style/MypageValueStyle"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/user_country"/>
+
+                <TextView
+                    android:id="@+id/txv_country2"
+                    style="@style/MypageValueStyle"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/working"/>
+
+                <TextView
+                    android:id="@+id/txv_working"
+                    style="@style/MypageValueStyle"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/interest"/>
+
+                <TextView
+                    android:id="@+id/txv_interest"
+                    style="@style/MypageValueStyle"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_customerid"/>
+
+                <TextView
+                    android:id="@+id/txv_customId"
+                    style="@style/MypageValueStyle"
+                    android:text="ab12456"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                android:id="@+id/lyt_mytimeline"
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_mytimeline"/>
+
+                <ImageView
+                    style="@style/MypageValueStyle"
+                    android:src="@drawable/left_arrow"
+                    android:scaleType="fitEnd"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MypageContainerStyle"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_public_info"/>
+
+            </LinearLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <RelativeLayout
+                style="@style/MypageContainerStyle"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:layout_marginLeft="16dp"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="@string/mypage_mypos"/>
+
+                <ImageView
+                    android:id="@+id/imv_mylocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/switch_selector"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/MypageContainerStyle"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:layout_marginLeft="16dp"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="@string/mypage_mytimeline"/>
+
+                <ImageView
+                    android:id="@+id/imv_mytimeline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/switch_selector"/>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                style="@style/MypageContainerStyle"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_reg_promember"/>
+
+                <ImageView
+                    android:id="@+id/imv_promember"
+                    style="@style/MypageValueStyle"
+                    android:src="@drawable/left_arrow"
+                    android:scaleType="fitEnd"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/MypageContainerStyle"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_service"/>
+
+                <ImageView
+                    android:id="@+id/imv_help"
+                    style="@style/MypageValueStyle"
+                    android:src="@drawable/left_arrow"
+                    android:scaleType="fitEnd"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MypageContainerStyle"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/mypage_setting"/>
+
+                <ImageView
+                    android:id="@+id/imv_setting"
+                    style="@style/MypageValueStyle"
+                    android:src="@drawable/left_arrow"
+                    android:scaleType="fitEnd"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include  layout="@layout/footer"/>
+
+</LinearLayout>

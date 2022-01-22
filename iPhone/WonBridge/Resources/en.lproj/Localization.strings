@@ -1,0 +1,20 @@
+/* 
+  Localization.strings
+  WonBridge
+
+  Created by Tiia on 28/08/16.
+  Copyright © 2016 elitedev. All rights reserved.
+*/
+
+"APP_NAME"                                      = "WonBridge";
+
+"ALERT_OK"                                      = "确认";
+"ALERT_CANCEL"                                  = "撤消";
+
+"INPUT_NAME"                                    = "请输入姓名.";
+"INPUT_PASSWORD"                                = "请输入密码.";
+
+"FAILURE_TO_LOGIN"                              = "Fail to login";
+"UNREGISTERED_USER"                             = "Unreigstered User.";
+"WRONG_PASSWORD"                                = "Password is wrong.";
+"FAIL_TO_CONNECT"                               = "Fail to connect to a server. \nPlease try again.";

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/lyt_container">
+
+    <include layout="@layout/header"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edt_interest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:maxLength="15"
+            android:hint="@string/input"
+            android:textSize="18sp"
+            android:textColor="@color/text"
+            android:theme="@style/MyEditTextTheme"
+            android:padding="18dp"/>
+
+        <ImageView
+            android:id="@+id/imv_delete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/icon_ban_set"
+            android:scaleType="fitCenter"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp">
+
+        <TextView
+            android:id="@+id/txv_interest1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/interest1"
+            android:textSize="14sp"
+            android:background="@drawable/filter_selector"
+            android:textColor="@drawable/color_selector"/>
+
+        <TextView
+            android:id="@+id/txv_interest2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/interest2"
+            android:textSize="14sp"
+            android:background="@drawable/filter_selector"
+            android:textColor="@drawable/color_selector"/>
+
+        <TextView
+            android:id="@+id/txv_interest3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/interest3"
+            android:textSize="14sp"
+            android:background="@drawable/filter_selector"
+            android:textColor="@drawable/color_selector"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp">
+
+        <TextView
+            android:id="@+id/txv_interest4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/interest4"
+            android:textSize="14sp"
+            android:background="@drawable/filter_selector"
+            android:textColor="@drawable/color_selector"/>
+
+        <TextView
+            android:id="@+id/txv_interest5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/interest5"
+            android:textSize="14sp"
+            android:background="@drawable/filter_selector"
+            android:textColor="@drawable/color_selector"/>
+
+        <TextView
+            android:id="@+id/txv_interest6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/interest6"
+            android:textSize="14sp"
+            android:background="@drawable/filter_selector"
+            android:textColor="@drawable/color_selector"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp">
+
+        <TextView
+            android:id="@+id/txv_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#333333"
+            android:textSize="18sp"
+            android:text="@string/cancel"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/lightgray_roundrect"/>
+
+        <TextView
+            android:id="@+id/txv_ok"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:textSize="18sp"
+            android:text="@string/ok"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/blue_roundrect"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+OTHER_LDFLAGS = -ObjC -l"c++" -l"icucore" -l"sqlite3" -l"stdc++.6" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreAudio" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "GLKit" -framework "OpenGLES" -framework "QuartzCore" -framework "Security"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)

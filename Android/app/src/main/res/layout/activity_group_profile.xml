@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"  >
+
+    <include layout="@layout/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    android:id="@+id/txv_member_count"
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/group_member_count"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                style="@style/MypageContainerStyle"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/group_profile"
+                    android:layout_centerVertical="true"/>
+
+                <ImageView
+                    android:id="@+id/imv_profile"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/img_group"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <View
+                style="@style/MypageSeperatorStyle" />
+
+            <LinearLayout
+                style="@style/MypageContainerStyle">
+
+                <TextView
+                    style="@style/MypageLabelStyle"
+                    android:text="@string/group_name"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/txv_groupname"
+                    style="@style/MypageValueStyle"
+                    android:text="Group"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8AB2DA3CA3237C1FED98639E4A2D8570EDD66191" : 0,
+    "96FFC5AD1B0AB10D5D33669992DE1397B87B190C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48DA8D0C-DFAB-4088-9522-6D83C6DCD314",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8AB2DA3CA3237C1FED98639E4A2D8570EDD66191" : "",
+    "96FFC5AD1B0AB10D5D33669992DE1397B87B190C" : "WonBridge\/WonBridge\/Vender\/UIImage+ResizeMagick\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WonBridge",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WonBridge.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/eliteware555\/wonbridge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AB2DA3CA3237C1FED98639E4A2D8570EDD66191"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mustangostang\/UIImage-ResizeMagick.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96FFC5AD1B0AB10D5D33669992DE1397B87B190C"
+    }
+  ]
+}

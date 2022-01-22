@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:text="@string/sound_off"
+            android:drawableLeft="@drawable/icon_no_voice_set"
+            android:drawablePadding="20dp"  />
+
+        <ImageView
+            android:id="@+id/imv_soundOnOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sound_selector"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_grey"/>
+
+    <TextView
+        android:id="@+id/txv_set_groupchatting"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="@string/group_chatting"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/icon_group_set"
+        android:drawablePadding="20dp"  />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_grey"/>
+
+    <TextView
+        android:id="@+id/txv_set_block"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="@string/block"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/block_selector"
+        android:drawablePadding="20dp"  />
+
+</LinearLayout>

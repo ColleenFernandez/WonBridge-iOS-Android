@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlt_silver"
+            style="@style/MypageContainerStyle">
+
+            <TextView
+                style="@style/MypageLabelStyle"
+                android:text="@string/silver_member"/>
+
+            <ImageView
+                android:id="@+id/imv_silver_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_opened" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/flt_silver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/charge_part"/>
+
+        </FrameLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlt_gold"
+            style="@style/MypageContainerStyle"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                style="@style/MypageLabelStyle"
+                android:text="@string/gold_member"/>
+
+            <ImageView
+                android:id="@+id/imv_gold_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_opened"/>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/flt_gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/charge_part"/>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlt_diamond"
+            android:layout_marginTop="6dp"
+            style="@style/MypageContainerStyle">
+
+            <TextView
+                style="@style/MypageLabelStyle"
+                android:text="@string/diamond_member"/>
+
+            <ImageView
+                android:id="@+id/imv_diamond_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_opened" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/flt_diamond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/charge_part"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

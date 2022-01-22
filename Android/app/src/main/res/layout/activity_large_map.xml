@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+
+    <FrameLayout
+        android:id="@+id/flt_baidumap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/imv_small_baidumap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:background="@drawable/icon_small_map"
+            android:layout_margin="8dp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flt_googlemap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment android:id="@+id/googlemap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imv_small_googlemap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/icon_small_map"
+            android:layout_margin="8dp"/>
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/imv_set_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:background="@drawable/button_position_edit"
+        android:layout_margin="8dp"/>
+
+</FrameLayout>

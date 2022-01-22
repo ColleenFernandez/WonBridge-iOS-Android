@@ -1,0 +1,839 @@
+<resources>
+
+    <string name="app_name">WonBridge</string>
+
+    <string name="service_phone_number" translatable="false">400-012-9288</string>
+    <string name="service_email" translatable="false">service@wonbridge.com</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBDOUtFQWLjlFL1UtETShv3h5d_1o_rBuo</string>
+
+    <string name="loading_wait" translatable="false">Loading... Please wait.</string>
+    <string name="str_back_one_more_end">Pressing once more will be terminated.</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="input_id">Please input your ID/Phone number</string>
+    <string name="input_pwd">密码必须是4~15位</string>
+    <string name="pwd_error">Please input right ID and password.</string>
+
+    <!--   main   -->
+    <string name="login">登录</string>
+
+    <!--  login  -->
+    <string name="enter">注册</string>
+    <string name="id_add">输入用户名/手机号码</string>
+    <string name="password_add">输入密码</string>
+    <string name="login_title">- 跨 境 乔 -</string>
+
+    <!--   maintimeline  -->
+    <string name="timeline">动态</string>
+    <string name="user">用户</string>
+    <string name="group">群組</string>
+
+    <string name="tab_timeline">附近</string>
+    <string name="message">消息</string>
+    <string name="mypage">我</string>
+    <string name="address">通讯录</string>
+
+    <string name="friend">好友</string>
+
+    <!--  chatting primary  -->
+    <string name="msg_title">消息记录</string>
+    <string name="chat">会话</string>
+    <string name="chatting_group">聊天群</string>
+    <string name="partner">公众号</string>
+
+    <string name="profile">信息</string>
+    <string name="deprofile">的信息</string>
+    <string name="age">年龄</string>
+    <string name="recent_connect">最后登录</string>
+    <string name="forgotpwd"><u>忘记密码？</u></string>
+    <string name="detimeline">的动态</string>
+    <string name="activity">个人动态</string>
+    <string name="user_haoma">用户编号 ：&#160;</string>
+
+    <string name="username">输入用户名/手机号码</string>
+    <string name="status">登录状态</string>
+    <string name="friend_status">在线中</string>
+    <string name="register_day">注册日期</string>
+    <string name="location2">所在地</string>
+    <string name="free_call">免费通话</string>
+    <string name="video_chat">视频聊天</string>
+    <string name="gift">赠送礼物</string>
+    <string name="chatting">发送消息</string>
+    <string name="delete_friend">删除好友</string>
+    <string name="add_friend">添加好友</string>
+    <string name="block">屛蔽</string>
+    <string name="delete_timeline">删除</string>
+
+    <string name="error">Connecting to the server failed.\nPlease try again.</string>
+    <string name="loading">It is being connected to the server. Please wait</string>
+    <string name="transfer_file">I have sent the file.</string>
+
+    <string name="album">图片</string>
+    <string name="video">视频</string>
+    <string name="camera">拍照</string>
+    <string name="audio_call">语音通话</string>
+    <string name="video_call">视频通话</string>
+    <string name="send">发送</string>
+    <string name="file">file</string>
+
+    <string name="add">添加</string>
+    <string name="invite">邀请</string>
+    <string name="member_count">成员数</string>
+    <string name="build_date">建群日期</string>
+
+    <string name="unregistered_user">Unregistered user.</string>
+    <string name="checkPwd">Please enter the password correctly.</string>
+
+    <string name="success_to_login"> Logged in successfully. </string>
+    <string name="chatting_error">The connection to the chat server has been shut down.</string>
+    <string name="chatting_success">It was connected to the chat server.</string>
+
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+
+    <string name="transfer_fail">Transmission has been failed.</string>
+    <string name="select_friend">选择朋友</string>
+    <string name="chatting_connecting">It is being connected to the chat server.</string>
+
+    <string name="confirm">确认</string>
+
+    <string name="read">Read</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete_room">確定要删除该聊天吗?</string>
+    <string name="confirm_delete_timeline">確定要删除吗?</string>
+
+    <string name="sound_off">静音</string>
+    <string name="group_chatting">群组聊天</string>
+    <string name="group_name">群组名称</string>
+    <string name="group_member">群组成员</string>
+    <string name="group_invite">邀请成员</string>
+    <string name="edit_group_noti">请编辑群公告</string>
+    <string name="input_group_name">请输入新的群名称</string>
+
+    <string name="social_login">社交账户登录</string>
+    <string name="select_signup">请选择注册方式。\n输入简单的信息就可以完成注册。</string>
+    <string name="email_signup">电子邮箱注册</string>
+    <string name="phone_signup">手机号码注册</string>
+    <string name="signup">注册会员</string>
+    <string name="input_email">输入电子邮箱</string>
+    <string name="input_phone">输入手机号码</string>
+    <string name="input_phone_email">输入手机号码/邮箱地址</string>
+    <string name="input_code">输入验证码</string>
+    <string name="send_code">发送验证信息</string>
+    <string name="resend_code">再次发送</string>
+    <string name="next">下一步</string>
+    <string name="agree_terms">※ 按下一步, 同意 使用条款 和 个人信息保护政策。</string>
+    <string name="register_profile">用户信息</string>
+
+    <string name="user_id">用户名</string>
+    <string name="nickname">名称</string>
+    <string name="confirm_conflict">确认重复</string>
+    <string name="password">密码</string>
+    <string name="confirm_pwd">确认密码</string>
+    <string name="sex">性别</string>
+    <string name="select_sex">请选择性别</string>
+    <string name="man">男子</string>
+    <string name="man2">男</string>
+    <string name="woman">女子</string>
+    <string name="woman2">女</string>
+    <string name="skip">跳过</string>
+    <string name="location_setting">区域设置</string>
+    <string name="location_note">您想收到哪个国家（城市）的信息\n（生活、文化、旅行、商务等）。</string>
+    <string name="gps_note">基于您所在的位置（GPS）\n提供丰富的信息和朋友推荐。</string>
+    <string name="country">国家</string>
+    <string name="select_country">区域选择</string>
+    <string name="select_other_country">其他国家（城市）选择</string>
+    <string name="location_note2">※ 区域可以在 个人信息设置里修改。</string>
+    <string name="register_complete">完成注册。\n点击确认按钮，移到首页。 </string>
+    <string name="location">区域</string>
+    <string name="update_profile">修改信息</string>
+    <string name="phone_note">请选择国家后输入手机号码。</string>
+
+    <string name="save">保存</string>
+    <string name="input_timeline">请输入发布信息。</string>
+    <string name="timeline_list">详细信息</string>
+    <string name="saving">保存中</string>
+
+    <string name="mypage_title">我的主页</string>
+    <string name="mypage_profile">头像</string>
+    <string name="mypage_email">E-mail</string>
+    <string name="mypage_nickname">昵称</string>
+    <string name="mypage_sex">性别</string>
+    <string name="mypage_customerid">服务编号</string>
+    <string name="mypage_public_info">信息公开</string>
+    <string name="mypage_mypos">我的位置</string>
+    <string name="mypage_mytimeline">我的动态</string>
+    <string name="mypage_reg_promember">开通付费会员</string>
+    <string name="mypage_service">客服中心</string>
+    <string name="mypage_setting">设置</string>
+
+    <string name="coming_soon">精彩内容即将登场！</string>
+    <string name="please_wait">敬请期待...</string>
+
+    <string name="qa">咨询</string>
+    <string name="qa_online">在线咨询</string>
+    <string name="qa_email">邮件咨询</string>
+    <string name="qa_phone">电话咨询</string>
+    <string name="help">帮助</string>
+
+    <string name="change_pwd">修改密码</string>
+    <string name="manage_friend">好友管理</string>
+    <string name="manage_point">积分管理</string>
+    <string name="logout">退出登录</string>
+
+    <string name="group_waiting">等待中</string>
+    <string name="request">申请</string>
+    <string name="select_image">选择图片</string>
+
+    <string name="link">参与</string>
+
+    <string name="event">活动</string>
+    <string name="chat_box">聊天窗</string>
+    <string name="search">搜索</string>
+    <string name="coupon">代金券</string>
+
+    <string name="sent_video_request"> 发起了视频通话</string>
+    <string name="waiting_response">视频通话连接中···</string>
+
+    <string name="service_category_1">跨境贸易</string>
+    <string name="service_category_2">涉外培训</string>
+    <string name="service_category_3">劳务外包</string>
+    <string name="service_category_4">留学代理</string>
+    <string name="service_category_5">投购资产</string>
+    <string name="service_category_6">旅游考察</string>
+    <string name="service_category_7">移民中介</string>
+    <string name="service_category_8">打工度假</string>
+    <string name="service_category_9">商品购物</string>
+    <string name="service_category_10">娱乐联谊</string>
+    <string name="service_category_11">侨居家政</string>
+    <string name="service_category_12">定制服务</string>
+
+    <string name="service_category_des_1_1">澳洲正品健康保健产品，高质低价</string>
+    <string name="service_category_des_1_2">澳洲车厘子 30 - 32mm，生鲜空运，4日达</string>
+    <string name="service_category_des_2_1">澳洲生活工作常识及生活技巧培训（全3日）</string>
+    <string name="service_category_des_2_2">加拿大技术工种培训（多工种选择，每工种7日，全日制）</string>
+    <string name="service_category_des_3_1">澳洲中型小区建房项目 - 木工劳务（2个月，全职）</string>
+    <string name="service_category_des_3_2">澳洲房地产开发商长期泥瓦匠劳务（合同工，全职）</string>
+    <string name="service_category_des_4_1">美、加、澳及欧洲多国大学留学代理，免费预评估</string>
+    <string name="service_category_des_4_2">澳大利亚小学、中学、专科、大学留学代理，免费预评估</string>
+    <string name="service_category_des_5_1">澳大利亚花园别墅，多房型，终身地权</string>
+    <string name="service_category_des_5_2">澳大利亚景观豪宅，你值得拥有</string>
+    <string name="service_category_des_6_1">澳洲大堡礁、黄金海岸、大红石 7日深度体验</string>
+    <string name="service_category_des_6_2">悉尼或墨尔本生活体验、旅居、留学、移民考察（7日 至 20日，可选悉尼或墨尔本）</string>
+    <string name="service_category_des_7_1">澳洲技术移民代理，4个月拿签证飞澳洲，技术狂人的你还等什么？（免费预评估）</string>
+    <string name="service_category_des_7_2">美国投资移民代理，拥有国际会计师拍照，忠实可靠，信誉保证（免费预评估）</string>
+    <string name="service_category_des_8_1">想要一个与众不同、终身难忘的“悠长假期”吗？澳洲打工度假签证申请</string>
+    <string name="service_category_des_8_2">想要感受“指环王”里的极美世界吗？来新西兰边打工边体验吧</string>
+    <string name="service_category_des_9_1">享受国外无污染、无风险、健康、原生态的产品? 海淘小乔来帮你</string>
+    <string name="service_category_des_9_2">澳洲正品代购，假一罚十，急速物流，放心省力。还等什么，来剁手吧</string>
+    <string name="service_category_des_10_1">奎省苏州侨会商会华人新年聚大餐！同胞们，快乐过大年啦</string>
+    <string name="service_category_des_10_2">澳洲的唱将们！“蒙面唱将猜猜猜”澳洲站海选报名啦！释放内心中的那颗“闪亮的星”吧</string>
+    <string name="service_category_des_11_1">墨市东区家政及清洁服务隆重上线。家中需要重新布局？清洁不到的地方都是隐患？没关系，看我们的！</string>
+    <string name="service_category_des_11_2">帕斯全城 24x7 解锁换锁服务。让忘了带钥匙见鬼去吧！</string>
+    <string name="service_category_des_12_1">尊享澳大利亚、中国往返旅居至诚 VIP 服务。量身定制，合体剪裁！只对唯一的你…</string>
+
+
+    <string name="chuguo_search_1">常识</string>
+    <string name="chuguo_search_2">护照</string>
+    <string name="chuguo_search_3">国籍</string>
+    <string name="chuguo_search_4">签证</string>
+    <string name="chuguo_search_5">机票</string>
+    <string name="chuguo_search_6">外汇</string>
+    <string name="chuguo_search_7">交通</string>
+    <string name="chuguo_search_8">住宿</string>
+
+    <string name="my_coupon">我的代金券</string>
+    <string name="got_coupon">获取代金券</string>
+
+    <string name="change_nickname">修改昵称</string>
+    <string name="exist_nickname">已注册的昵称。</string>
+    
+    <string name="change_pwd_note">密码必须由4~15字数的英文、数字和特殊符号组成。 </string>
+    <string name="current_pwd">使用中的密码</string>
+    <string name="new_pwd">新密码</string>
+    <string name="new_pwd_confirm">确认新密码</string>
+    <string name="confirm_pwd_error">您输入的密码不一致!</string>
+    <string name="logout_note">确定要退出乔乔吗？</string>
+
+    <string name="unblock_friend">解除</string>
+    <string name="manage_friend_note">以下是您屏蔽中的好友。\n如果您需要聊天，请解除屏蔽状态。</string>
+    <string name="no_block_friend">没有屏蔽中的好友。</string>
+
+    <string name="charge_service">充值服务</string>
+    <string name="charge">充值</string>
+    <string name="charge_vip">开通VIP</string>
+    <string name="charge_online">线下服务卡</string>
+
+    <string name="manage_charge_point">充值点数管理</string>
+    <string name="charge_daxiang">打赏</string>
+
+    <string name="vip_button1">支付宝支付</string>
+    <string name="vip_button2">微信支付</string>
+
+    <string name="online_card1">桥头卡</string>
+    <string name="online_card2">港湾卡</string>
+    <string name="online_card3">家园卡</string>
+
+    <string name="silver_member">白银会员</string>
+    <string name="gold_member">黄金会员</string>
+    <string name="diamond_member">钻石会员</string>
+    <string name="silver_note">白银会员是基于优酷为广大用户提供更加便捷，贴心，更好玩的 特权服务, 仅需9元/月加入白银会员即刻享受3大特权：</string>
+    <string name="silver_note21">1) 在优酷及客户端尊享免广告特权；</string>
+    <string name="silver_note22">2) 在优酷及客户端可尊享1080P超高清观影体验；</string>
+    <string name="silver_note23">3) 开通白银会员立即点亮白银会员炫酷图标，\n彰显您的独特身份；</string>
+    <string name="distance_from_me">与我的距离</string>
+    <string name="all">全部</string>
+    <string name="online">在线</string>
+    <string name="relationship">关系</string>
+    <string name="oneday_ago">1天前</string>
+    <string name="threedays_ago">3天前</string>
+    <string name="sevendays_ago">7天前</string>
+    <string name="age_unit">岁</string>
+    <string name="radius">半径</string>
+    <string name="in_friend">内 好友</string>
+    <string name="man_unit">名</string>
+    <string name="public_info">公开</string>
+    <string name="private_info">未公开</string>
+    <string name="friend_state">好友</string>
+    <string name="like_users">喜欢的用户</string>
+    <string name="take_photo">照片拍摄</string>
+    <string name="choose_gallery">从相册选择</string>
+    <string name="user_country">关注国家</string>
+    <string name="input_country">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;请选择关注国家</string>
+    <string name="school">毕业院校</string>
+    <string name="select_school">学校选择</string>
+    <string name="change_school">修改学校</string>
+    <string name="input_school">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;请选择学校</string>
+    <string name="home_village">故乡</string>
+    <string name="change_village">修改故乡</string>
+    <string name="select_village">故乡选择</string>
+    <string name="input_village">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;请选择故乡</string>
+    <string name="working">同类</string>
+    <string name="change_working">修改同类</string>
+    <string name="input_info">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;请输入</string>
+    <string name="input">请输入</string>
+    <string name="working1">留学生</string>
+    <string name="working2">移民中</string>
+    <string name="working3">跨境游</string>
+    <string name="working4">海外打工</string>
+    <string name="working5">侨居父母</string>
+    <string name="working6">跨境投资</string>
+    <string name="interest">同趣</string>
+    <string name="change_interest">修改同趣</string>
+    <string name="interest1">K歌舞蹈</string>
+    <string name="interest2">户外运动</string>
+    <string name="interest3">文化创作</string>
+    <string name="interest4">棋牌娱乐</string>
+    <string name="interest5">品酒美食</string>
+    <string name="interest6">专业策划</string>
+    <string name="user_info">补充资料</string>
+    <string name="user_info_note">※ 选填资料可以在 个人信息设置里修改。</string>
+    <string name="not_input">未输入</string>
+
+    <string name="accept">接受</string>
+    <string name="decline">拒绝</string>
+    <string name="blocking">屛蔽中(不能对话)</string>
+    <string name="exist_email">已注册的电子邮箱</string>
+    <string name="exist_phone">已注册的手机号码</string>
+    <string name="exist_wechat">已注册的微信号码</string>
+    <string name="recover_note">找回密码</string>
+    <string name="recover_title">找回账户信息</string>
+    <string name="group_info">群组信息</string>
+    <string name="group_member_count">全部群成员</string>
+    <string name="group_profile">群头像</string>
+    <string name="group_noti">群公告</string>
+    <string name="group_sound_onoff">消息免打扰</string>
+    <string name="group_top_onoff">置顶聊天</string>
+    <string name="group_out">删除并退出</string>
+
+    <string name="add_new_friend">新的朋友</string>
+    <string name="add_new_group">新建群组</string>
+    <string name="add_new_partner">添加公众号</string>
+
+    <string name="already_added">已添加</string>
+    <string name="delegate">委任</string>
+
+    <string name="content_all">全文</string>
+    <string name="content_close">收起</string>
+
+    <string name="service">服务</string>
+    <string name="business_service">商务服务</string>
+    <string name="chuguo_qa">出国咨询</string>
+    <string name="chuguo_online_qa">业务咨询</string>
+
+    <string name="just_now">刚刚</string>
+    <string name="mins_ago">分钟前</string>
+    <string name="hours_ago">小时前</string>
+    <string name="days_ago">天前</string>
+    <string name="months_ago">个月前</string>
+    <string name="years_ago">年前</string>
+    <string name="last_month">上个月</string>
+    <string name="last_day">昨天</string>
+    <string name="last_year">去年</string>
+
+    <string name="please_delegate">그룹정보설정에서 그룹장권한을 위임해야만 방을 나가실수 있습니다.</string>
+    <string name="confirm_banish">선택한 멤버를 추방하시겠습니까.</string>
+    <string name="confirm_delegate">님에게 그룹장권한을 위임하시겠습니까.</string>
+
+    <string name="social_pwd_forget">※ Wechat, QQ로 가입한 경우는비밀번호\n 찾기가 불가능합니다.</string>
+    <string name="not_registered_social">가입되지 않은 계정입니다. 확인을 누르면 회원가입으로 이동합니다.</string>
+    <string name="wrong_device">다른 폰에서 로그인되어 있습니다. 다른 폰을 로그아웃시키겠습니까?</string>
+
+    <string name="input_group_request">그룹장에게 보낼 참여 신청 메시지를 적어주세요.</string>
+    <string name="note_group_request">신청이 완료되었습니다.\n그룹장이 수락하면, 그룹대화방에 자동으로 입장합니다.</string>
+    <string name="note_group_accept">수락을 누르시면, 채팅방에 자동으로 참여됩니다.</string>
+    <string name="group_request_message">&#160;has sent request to join group.</string>
+
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="app_tip">提示</string>
+    <string name="getting_prepayid">正在获取预支付订单...</string>
+
+    <string name="install_wechat">Please install Wechat and try again.</string>
+    <string name="install_qq">Please install QQ and try again.</string>
+
+    <string name="temp_pwd_prefix">Your password is</string>
+    <string name="temp_pwd_suffix">\nPlease login and change your password</string>
+
+    <string name="input_right_email">Please input right email.</string>
+    <string name="verify_code">Please input verification code.</string>
+    <string name="verify_email">Please verify email.</string>
+    <string name="verify_phone">Please verify phone.</string>
+    <string name="verify_success">Successfully verified.</string>
+    <string name="code_sent">6 digits code is sent to your email.</string>
+    <string name="input_nickname">名称必须是2~15位</string>
+    <string name="nick_confiict">Already exist nickname.</string>
+    <string name="nick_available">It is available nickname.</string>
+    <string name="input_sex">Please input sex.</string>
+    <string name="input_confirm">Please confirm your password.</string>
+    <string name="input_right_email_phone">Please input right phonenumber/email</string>
+    <string name="not_registered_user">Not registered user</string>
+
+
+    <string name="wrong_code">Please input right verification code.</string>
+    <string name="register_fail">Failed to register</string>
+    <string name="photo_upload_fail">Failed to upload photo.</string>
+    <string name="leave_room">&#160;left the room.</string>
+    <string name="become_groupowner">&#160;has become group owner.</string>
+    <string name="invited_toroom">&#160;has been invited to the room.</string>
+    <string name="banish_fromroom">&#160;has been out of the group.</string>
+    <string name="add_toroom">&#160;has been added to the group.</string>
+    <string name="default_request_group">I \'d like to join the group.</string>
+
+    <string name="input_timeline_content">Please input text or image.</string>
+
+    <string name="max_image_count_10">Select maximum 10 images.</string>
+    <string name="max_image_count_9">Select maximum 9 images.</string>
+
+    <string name="success_add_friend">Successfully added to friends.</string>
+    <string name="success_delete_friend">Successfully deleted</string>
+    <string name="success_upload_timeline">Successfully saved.</string>
+    <string name="fail_upload_timeline">Failed to upload</string>
+    <string name="success_updated">Successfully updated.</string>
+
+    <string name="not_use_phone">Cannot use outside of China</string>
+
+    <string name="failed_wechat">Failed to login to Wechat.</string>
+    <string name="failed_qq">Failed to login to QQ.</string>
+
+    <string name="success_wechat_pay">Success to pay.</string>
+    <string name="failed_wechat_pay">Failed to pay.</string>
+
+    <!-- video call -->
+    <string name="settings_name" translatable="false">AppRTC Settings</string>
+    <string name="disconnect_call">Disconnect Call</string>
+    <string name="room_description">
+        Please enter a room name. Room names are shared with everyone, so think
+        of something unique and send it to a friend.
+    </string>
+    <string name="favorites">Favorites</string>
+    <string name="no_favorites">No favorites</string>
+    <string name="invalid_url_title">Invalid URL</string>
+    <string name="invalid_url_text">The URL or room name you entered resulted in an invalid URL: %1$s
+    </string>
+    <string name="channel_error_title">Connection error</string>
+    <string name="connecting_to">Connecting to: %1$s</string>
+    <string name="missing_url">FATAL ERROR: Missing URL to connect to.</string>
+    <string name="camera2_texture_only_error">Camera2 only supports capturing to texture. Either disable Camera2 or enable capturing to texture in the options.</string>
+    <string name="switch_camera">Switch front/back camera</string>
+    <string name="capture_format_change_text">Slide to change capture format</string>
+    <string name="muted">Muted</string>
+    <string name="toggle_debug">Toggle debug view</string>
+    <string name="toggle_mic">Toggle microphone on/off</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_loopback">Loopback connection</string>
+    <string name="connect_description">Connect to the room</string>
+    <string name="add_favorite_description">Add favorite</string>
+
+    <string name="deleted_timeline">Deleted timeline</string>
+
+    <!-- Settings strings. -->
+    <string name="pref_room_key">room_preference</string>
+    <string name="pref_room_list_key">room_list_preference</string>
+
+    <string name="pref_videosettings_key">video_settings_key</string>
+    <string name="pref_videosettings_title">WebRTC video settings.</string>
+
+    <string name="pref_videocall_key">videocall_preference</string>
+    <string name="pref_videocall_title">Video call.</string>
+    <string name="pref_videocall_dlg">Enable video in a call.</string>
+    <string name="pref_videocall_default">true</string>
+
+    <string name="pref_camera2_key">camera2_preference</string>
+    <string name="pref_camera2_title">Use Camera2.</string>
+    <string name="pref_camera2_default">true</string>
+    <string name="pref_camera2_not_supported">Only supported on Android Lollipop and forward.</string>
+
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video resolution.</string>
+    <string name="pref_resolution_dlg">Enter AppRTC local video resolution.</string>
+    <string name="pref_resolution_default">Default</string>
+
+    <string name="pref_fps_key">fps_preference</string>
+    <string name="pref_fps_title">Camera fps.</string>
+    <string name="pref_fps_dlg">Enter local camera fps.</string>
+    <string name="pref_fps_default">Default</string>
+
+    <string name="pref_capturequalityslider_key">capturequalityslider_preference</string>
+    <string name="pref_capturequalityslider_title">Capture quality slider.</string>
+    <string name="pref_capturequalityslider_dlg">Enable slider for changing capture quality.</string>
+    <string name="pref_capturequalityslider_default">false</string>
+
+    <string name="pref_startvideobitrate_key">startvideobitrate_preference</string>
+    <string name="pref_startvideobitrate_title">Start video bitrate setting.</string>
+    <string name="pref_startvideobitrate_dlg">Start video bitrate setting.</string>
+    <string name="pref_startvideobitrate_default">Default</string>
+
+    <string name="pref_startvideobitratevalue_key">startvideobitratevalue_preference</string>
+    <string name="pref_startvideobitratevalue_title">Video encoder start bitrate.</string>
+    <string name="pref_startvideobitratevalue_dlg">Enter video encoder start bitrate in kbps.</string>
+    <string name="pref_startvideobitratevalue_default">1000</string>
+
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec.</string>
+    <string name="pref_videocodec_dlg">Select default video codec.</string>
+    <string name="pref_videocodec_default">VP8</string>
+
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration.</string>
+    <string name="pref_hwcodec_dlg">Use hardware accelerated video codec (if available).</string>
+    <string name="pref_hwcodec_default">true</string>
+
+    <string name="pref_capturetotexture_key">capturetotexture_preference</string>
+    <string name="pref_capturetotexture_title">Video capture to surface texture.</string>
+    <string name="pref_capturetotexture_dlg">Capture video to textures (if available).</string>
+    <string name="pref_capturetotexture_default">true</string>
+
+    <string name="pref_value_enabled">Enabled</string>
+    <string name="pref_value_disabled">Disabled</string>
+
+    <string name="pref_audiosettings_key">audio_settings_key</string>
+    <string name="pref_audiosettings_title">WebRTC audio settings.</string>
+
+    <string name="pref_startaudiobitrate_key">startaudiobitrate_preference</string>
+    <string name="pref_startaudiobitrate_title">Audio bitrate setting.</string>
+    <string name="pref_startaudiobitrate_dlg">Audio bitrate setting.</string>
+    <string name="pref_startaudiobitrate_default">Default</string>
+
+    <string name="pref_startaudiobitratevalue_key">startaudiobitratevalue_preference</string>
+    <string name="pref_startaudiobitratevalue_title">Audio codec bitrate.</string>
+    <string name="pref_startaudiobitratevalue_dlg">Enter audio codec bitrate in kbps.</string>
+    <string name="pref_startaudiobitratevalue_default">32</string>
+
+    <string name="pref_audiocodec_key">audiocodec_preference</string>
+    <string name="pref_audiocodec_title">Default audio codec.</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec.</string>
+    <string name="pref_audiocodec_default">OPUS</string>
+
+    <string name="pref_noaudioprocessing_key">audioprocessing_preference</string>
+    <string name="pref_noaudioprocessing_title">Disable audio processing.</string>
+    <string name="pref_noaudioprocessing_dlg">Disable audio processing pipeline.</string>
+    <string name="pref_noaudioprocessing_default">false</string>
+
+    <string name="pref_aecdump_key">aecdump_preference</string>
+    <string name="pref_aecdump_title">Create aecdump.</string>
+    <string name="pref_aecdump_dlg">Enable diagnostic audio recordings.</string>
+    <string name="pref_aecdump_default">false</string>
+
+    <string name="pref_opensles_key">opensles_preference</string>
+    <string name="pref_opensles_title">Use OpenSL ES for audio playback.</string>
+    <string name="pref_opensles_dlg">Use OpenSL ES for audio playback.</string>
+    <string name="pref_opensles_default">false</string>
+
+    <string name="pref_disable_built_in_aec_key">disable_built_in_aec_preference</string>
+    <string name="pref_disable_built_in_aec_title">Disable hardware AEC.</string>
+    <string name="pref_disable_built_in_aec_dlg">Disable hardware AEC.</string>
+    <string name="pref_disable_built_in_aec_default">false</string>
+    <string name="pref_built_in_aec_not_available">Hardware AEC is not available</string>
+
+    <string name="pref_disable_built_in_agc_key">disable_built_in_agc_preference</string>
+    <string name="pref_disable_built_in_agc_title">Disable hardware AGC.</string>
+    <string name="pref_disable_built_in_agc_dlg">Disable hardware AGC.</string>
+    <string name="pref_disable_built_in_agc_default">false</string>
+    <string name="pref_built_in_agc_not_available">Hardware AGC is not available</string>
+
+    <string name="pref_disable_built_in_ns_key">disable_built_in_ns_preference</string>
+    <string name="pref_disable_built_in_ns_title">Disable hardware NS.</string>
+    <string name="pref_disable_built_in_ns_dlg">Disable hardware NS.</string>
+    <string name="pref_disable_built_in_ns_default">false</string>
+    <string name="pref_built_in_ns_not_available">Hardware NS is not available</string>
+
+    <string name="pref_enable_level_control_key">enable_level_control_preference</string>
+    <string name="pref_enable_level_control_title">Enable level control.</string>
+    <string name="pref_enable_level_control_default">false</string>
+
+    <string name="pref_speakerphone_key">speakerphone_preference</string>
+    <string name="pref_speakerphone_title">Speakerphone.</string>
+    <string name="pref_speakerphone_dlg">Speakerphone.</string>
+    <string name="pref_speakerphone_default">auto</string>
+
+    <string name="pref_miscsettings_key">misc_settings_key</string>
+    <string name="pref_miscsettings_title">Miscellaneous settings.</string>
+
+    <string name="pref_room_server_url_key">room_server_url_preference</string>
+    <string name="pref_room_server_url_title">Room server URL.</string>
+    <string name="pref_room_server_url_dlg">Enter a room server URL.</string>
+    <string name="pref_room_server_url_default" translatable="false">http://appr.tc</string>
+
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default" translatable="false">false</string>
+
+    <string name="pref_tracing_key">tracing_preference</string>
+    <string name="pref_tracing_title">Debug performance tracing.</string>
+    <string name="pref_tracing_dlg">Debug performance tracing.</string>
+    <string name="pref_tracing_default" translatable="false">false</string>
+
+    <string name="call_declined_byother">Call declined</string>
+    <string name="call_declined_byme">Declined</string>
+    <string name="call_cancelled_byme">Cancelled</string>
+    <string name="call_cancelled_byother">Call cancelled by caller</string>
+    <string name="call_duration">Duration:</string>
+    <string name="call_cancelled_noanswer">Call was not answered</string>
+
+    <string name="file_overflow">Attachment size can be transmitted only less than 25MB.</string>
+    <string name="file_uploading">The transfer of the files.</string>
+
+    <string name="download_confirm">Do you want to download the file.</string>
+    <string name="download_success">Save the file.</string>
+    <string name="download_fail">You could not save the file.</string>
+    <string name="not_support_file">The file format is not supported.</string>
+
+    <string-array name="CountryPhoneCodesList" translatable="false">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+
+
+</resources>
